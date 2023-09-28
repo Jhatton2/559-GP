@@ -135,12 +135,14 @@ void drawButton(int i)
   if (trials.get(trialNum) == i) // see if current button is the target
   {
     fill(millis() % 255); // if so, fill with flashing light -- changes based on milliseconds passed
-        
+
+//**************************************************************************************************************************************************************************
     if(mouseOver(bounds)==true) // if cursor is in range of target turn rectangle green
     {
        fill(0,255,0); 
     }
-  }
+//**************************************************************************************************************************************************************************
+}
   else
     fill(200); // if not, fill gray
 
