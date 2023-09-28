@@ -79,7 +79,7 @@ void draw()
     drawButton(i); //draw button
 
   fill(255, 0, 0, 200); // set fill color to translucent red
-  ellipse(mouseX, mouseY, 10, 10); //draw user cursor as a circle with a diameter of 20
+  ellipse(mouseX, mouseY, 20, 20); //draw user cursor as a circle with a diameter of 20
   
 }
 
